@@ -8,7 +8,7 @@ class ToAlphanumbericTest < Test::Unit::TestCase
     end
 end
 
-
+# Open Class Technique
 class String
     def to_alphanumeric
         gsub(/[^\w\s]/,'')
