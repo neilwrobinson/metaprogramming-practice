@@ -1,0 +1,23 @@
+GEM
+  specs:
+    awesome_print (1.8.0)
+    concurrent-ruby (1.2.2)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+    monetize (1.4.0)
+      money (~> 6.7)
+    money (6.19.0)
+      i18n (>= 0.6.4, <= 2)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  awesome_print (~> 1.8)
+  monetize (~> 1.4)
+
+RUBY VERSION
+   ruby 3.2.1p31
+
+BUNDLED WITH
+   2.4.6
