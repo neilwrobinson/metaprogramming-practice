@@ -1,3 +1,6 @@
+def setup(&setup)
+    setup.call
+end
 def event(description)
     puts "ALERT: #{description}" if yield
 end
