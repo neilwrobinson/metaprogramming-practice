@@ -2,6 +2,7 @@ require 'test/unit'
 
 class Person; end
 
+# use class_eval instead of a "string eval"
 
 def add_checked_attribute(klass, attribute)
     klass.class_eval do # I used class_exec, and tests still passed, but I don't know why.
